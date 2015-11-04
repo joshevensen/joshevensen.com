@@ -1,0 +1,214 @@
+section {
+	width: 90%;
+	max-width: 800px;
+	margin: 0 auto;
+	padding: 50px;
+	border-bottom: 1px solid $greyLight;
+}
+.section__heading {
+	margin-bottom: 40px;
+	color: $orange;
+	text-align: center;
+}
+
+/*
+ * About
+ */
+.about__text {
+	margin-bottom: 14px;
+	font-size: 18px;
+	line-height: 1.6;
+}
+
+/*
+ * Skills Chart
+ */
+.skills-chart {
+	margin: 0;
+	padding-left: 10px;
+	border: 1px solid $grey;
+	border-top: none;
+	border-right: none;
+	list-style: none;
+}
+.skills-chart__item {
+	width: 40%;
+	margin-bottom: 10px;
+	padding: 8px;
+	border: 1px solid $grey;
+
+	&:hover {
+		background-color: $greyLighter;
+	}
+}
+.skills-chart__key {
+	@include clearfix;
+
+	span {
+		float: left;
+		display: block;
+		width: 25%;
+		padding: 4px;
+		border-right: 1px solid $grey;
+		@include font-size(0.75);
+		color: $greyDark;
+
+		&.last {
+			border: none;
+			text-align: right;
+		}
+	}
+}
+
+/*
+ * Technology
+ */
+.technology-list {
+	margin: 0;
+	list-style: none;
+	text-align: center;
+}
+.technology-list__item {
+	display: inline-block;
+	margin: 0 4px 8px;
+	padding: 4px 16px;
+	border: 1px solid $greyLight;
+	@include font-size(1.125);
+}
+
+/*
+ * Projects
+ */
+.project-box {
+	margin-bottom: 40px;
+	padding: 20px;
+	border: 1px solid $grey;
+
+	&:last-child {
+		margin-bottom: 0;
+	}
+}
+.project-box__title {
+	margin-bottom: 16px;
+	font-size: 26px;
+	color: $blackLight;
+	text-align: center;
+}
+.project-box__description {
+	line-height: 1.5;
+}
+.project-box__link {
+	display: block;
+	max-width: 280px;
+	margin: 20px auto 0;
+	padding: 8px;
+	border: 1px solid $orange;
+	font-size: 20px;
+	font-weight: 600;
+	text-align: center;
+
+	&:link,
+	&:visited {
+		color: $orange;
+	}
+	&:hover,
+	&:active {
+		background-color: $orange;
+		border-color: $orange;
+		color: white;
+	}
+}
+
+/*
+ * Hire
+ */
+.hire__button {
+	display: block;
+	width: 100%;
+	max-width: 360px;
+	margin: 0 auto;
+	padding: 10px 8px;
+	background-color: $orange;
+	border: none;
+	@include font-size(1.75);
+	color: white;
+	font-weight: 700;
+	transition: all 0.4s;
+	letter-spacing: 1px;
+
+	&:hover {
+		border-radius: 10px;
+		opacity: 0.9;
+	}
+}
+
+.hire-form {
+	position: fixed;
+	top: 120%;
+	left: 50%;
+	z-index: 9999;
+	width: 500px;
+	margin-left: -250px;
+	padding: 20px;
+	background-color: white;
+	box-shadow: 0 0 30px 20px rgba(0, 0, 0, 0.2);
+	transition: all 0.8s;
+
+	&.open {
+		top: 20%;
+	}
+}
+
+.hire-form__description {
+	margin-bottom: 24px;
+	line-height: 1.4;
+}
+
+.hire-form__block {
+	margin-bottom: 12px;
+
+	label {
+		margin-bottom: 8px;
+	}
+
+	input,
+	textarea {
+		width: 100%;
+		padding: 6px;
+	}
+	textarea {
+		min-height: 120px;
+	}
+}
+.hire-form__submit {
+	display: block;
+	width: 100%;
+	max-width: 360px;
+	margin: 20px auto 10px;
+	padding: 10px 8px;
+	background-color: $orange;
+	border: none;
+	@include font-size(1.25);
+	color: white;
+	transition: all 0.4s;
+
+	&:hover {
+		border-radius: 10px;
+		opacity: 0.9;
+	}
+
+}
+.hire-form__cancel {
+	display: block;
+	width: 100%;
+	max-width: 240px;
+	margin: 0 auto;
+	padding: 6px;
+	background: none;
+	border: none;
+	color: $orange;
+
+	&:hover {
+		text-decoration: underline;
+	}
+}

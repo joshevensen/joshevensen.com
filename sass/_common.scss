@@ -1,0 +1,29 @@
+// Variables
+$orange: #E25822;
+
+$greyLighter: #f7f7f7;
+$greyLight: #ddd;
+$grey: #ccc;
+$greyDark: #888;
+$blackLight: #555;
+
+.modal-overlay {
+	display: block;
+	position: fixed;
+	top: 0;
+	right: 0;
+	bottom: 0;
+	left: 0;
+	z-index: 999;
+	background-color: rgba(0, 0, 0, 0.7);
+}
+
+label,
+input,
+textarea,
+button,
+a {
+	&:focus {
+		outline-color: $orange;
+	}
+}

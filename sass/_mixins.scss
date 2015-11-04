@@ -1,0 +1,17 @@
+// Clearfix
+@mixin clearfix() {
+	content: "";
+	display: table;
+  width: 100%;
+
+	&:after {
+		clear: both;
+	}
+}
+
+
+// Rem output with px fallback
+@mixin font-size($sizeValue: 1) {
+	font-size: ($sizeValue * 16) + px;
+	font-size: $sizeValue + rem;
+}

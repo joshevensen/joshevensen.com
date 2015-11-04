@@ -1,0 +1,8 @@
+.footer {
+	padding: 20px 0;
+}
+.footer__copyright {
+	@include font-size(0.875);
+	color: $grey;
+	text-align: center;
+}

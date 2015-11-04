@@ -1,0 +1,18 @@
+.header {
+	padding: 60px 0;
+}
+.header__title {
+	color: $orange;
+	text-align: center;
+}
+.header__rule {
+	width: 400px;
+	margin: 15px auto;
+	border: none;
+	border-bottom: 1px solid $grey;
+}
+
+.header__image {
+	display: block;
+	margin: 0 auto;
+}
