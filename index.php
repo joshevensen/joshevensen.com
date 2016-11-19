@@ -29,7 +29,7 @@
 	<!--
 		|> Tagline
 	 -->
-	<h2 class="tagline">I design, develop, and deploy websites</h2>
+	<h2 class="tagline">I am a web developer.</h2>
 
 	<!--
 		|> About
@@ -37,7 +37,7 @@
 	<section>
 		<h3 class="section__heading">About Me</h3>
 
-		<p class="about__text">I admit it, I am a geek who loves coding websites. I started building websites with simple WYSIWYG builders over 6 years ago. Now I craft custom websites with HTML, SASS, and a little JavaScript. I've built dozens of websites over the years using straight HTML, WordPress, and Perch CMS. A little over a year ago I started working with PHP and the laravel framework. This allowed me build an amazing web app, called Novelize.</p>
+		<p class="about__text">I admit it, I am a geek who loves coding websites. I started building websites with simple WYSIWYG builders over 6 years ago. Now I craft custom websites and advanced web apps. I've built dozens of websites over the years using HTML, WordPress, and Perch CMS. A little over a year ago I started working with PHP and the laravel framework. This allowed me build an amazing web app, called Novelize.</p>
 
 		<p class="about__text">I'm always on the look out for new development tools and techniques to use on future projects. As well as new projects, especially those that allow me to do something that I haven't done before.</p>
 	</section>
@@ -52,11 +52,16 @@
 		<ul class="skills-chart">
 			<li class="skills-chart__item" style="width: 85%">HTML</li>
 			<li class="skills-chart__item" style="width: 90%">CSS/SASS</li>
-			<li class="skills-chart__item" style="width: 70%">JavaScript</li>
+			<li class="skills-chart__item" style="width: 30%">Bootstrap</li>
+			<li class="skills-chart__item" style="width: 40%">Foundation</li>
+			<li class="skills-chart__item" style="width: 60%">JavaScript</li>
 			<li class="skills-chart__item" style="width: 80%">jQuery</li>
+			<li class="skills-chart__item" style="width: 70%">AJAX</li>	
+			<li class="skills-chart__item" style="width: 60%">JSON</li>
 			<li class="skills-chart__item" style="width: 60%">SEO</li>
-			<li class="skills-chart__item" style="width: 80%">PHP/Laravel</li>
-			<li class="skills-chart__item" style="width: 70%">WordPress</li>
+			<li class="skills-chart__item" style="width: 90%">PHP/Laravel</li>
+			<li class="skills-chart__item" style="width: 20%">.NET</li>
+			<li class="skills-chart__item" style="width: 60%">WordPress</li>
 			<li class="skills-chart__item" style="width: 60%">Illustrator</li>
 			<li class="skills-chart__item" style="width: 50%">Photoshop</li>
 		</ul>
@@ -70,23 +75,38 @@
 		<h3 class="section__heading">Technology &amp; Services</h3>
 
 		<ul class="technology-list">
+			<li class="technology-list__item">Git</li>
 			<li class="technology-list__item">GitHub</li>
-			<li class="technology-list__item">Stripe</li>
-			<li class="technology-list__item">PHP Storm</li>
-			<li class="technology-list__item">GoDaddy</li>
-			<li class="technology-list__item">FileZilla</li>
-			<li class="technology-list__item">MailChimp</li>
-			<li class="technology-list__item">Mercurial</li>
-			<li class="technology-list__item">Perch CMS</li>
-			<li class="technology-list__item">New Relic</li>
-			<li class="technology-list__item">Emmet</li>
-			<li class="technology-list__item">WAMP</li>
-			<li class="technology-list__item">Digital Ocean</li>
+			<li class="technology-list__item">Bitbucket</li>
 			<li class="technology-list__item">Sublime Text</li>
-			<li class="technology-list__item">Prepros</li>
-			<li class="technology-list__item">Mandrill</li>
+			<li class="technology-list__item">Brackets</li>
+			<li class="technology-list__item">PHP Storm</li>
+			<li class="technology-list__item">Cloud9</li>
+			<li class="technology-list__item">WAMP</li>
+			<li class="technology-list__item">GoDaddy</li>
+			<li class="technology-list__item">Bluehost</li>
+			<li class="technology-list__item">Digital Ocean</li>
+			<li class="technology-list__item">AWS</li>
+			<li class="technology-list__item">FileZilla</li>
+			<li class="technology-list__item">MySQL/MariaDB</li>
+			<li class="technology-list__item">Navicat</li>
+			<li class="technology-list__item">PHPMyAdmin</li>
+			<li class="technology-list__item">Perch CMS</li>
+			<li class="technology-list__item">MailChimp</li>
+			<li class="technology-list__item">MailGun</li>
+			<li class="technology-list__item">Mailtrap</li>
+			<li class="technology-list__item">Stripe</li>
 			<li class="technology-list__item">New Relic</li>
+			<li class="technology-list__item">Google Analytics</li>
+			<li class="technology-list__item">Google Tag Manager</li>
+			<li class="technology-list__item">Emmet</li>
 			<li class="technology-list__item">Basecamp</li>
+			<li class="technology-list__item">JIRA</li>
+			<li class="technology-list__item">Wrike</li>
+			<li class="technology-list__item">Trello</li>
+			<li class="technology-list__item">Skype</li>
+			<li class="technology-list__item">Hangouts</li>
+			<li class="technology-list__item">GoToMeeting</li>
 		</ul>
 	</section>
 
@@ -103,8 +123,8 @@
 		</div>
 
 		<div class="project-box">
-			<h4 class="project-box__title">Stratasys Direct Manufacturing</h4>
-			<p class="project-box__description">I'm a full-time contractor performing Front-End Web Development for them. At Stratasys Direct Manufacturing I work with a small team to develop and maintain several company websites. I'm given a design and UI specs, build out a site with HTML and SASS and hand it over to the Back-End Developer to complete the functionality.</p>
+			<h4 class="project-box__title">Client Data Manager</h4>
+			<p class="project-box__description">Currently working on building a new API based web app that will allow agencies to offer their clients data management without having to tie themselves to a certain CMS or even a language. I'm working with a few colleagues to launch the new tool in December of this year.</p>
 		</div>
 
 		<div class="project-box">
@@ -120,7 +140,7 @@
 	<section>
 		<h3 class="section__heading">Need a Website?</h3>
 
-		<button id="modalButton" class="hire__button">HIRE ME</button>
+		<button id="modalButton" class="hire__button">CONTACT ME</button>
 
 		<form id="modal" class="hire-form" action="php/mailer.php" method="post">
 			<p class="hire-form__description">Use the form below to introduce yourself and let me know what kind of work you need done.</p>
