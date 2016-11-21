@@ -2,49 +2,47 @@
 <html>
 
 <head>
-  <meta charset="utf-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+  	<meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
 	<title>Josh Evensen, Web Developer</title>
 	<meta name="description" content="I design, develop, and deploy websites.">
 
-	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,600,700' rel='stylesheet' type='text/css'>
 	<link href="css/styles.css" rel="stylesheet" type="text/css">
-
-  <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+	<link href='//fonts.googleapis.com/css?family=Open+Sans:400,600,700' rel='stylesheet' type='text/css'>
+	
+	<script src="//use.fontawesome.com/e83c9e55be.js"></script>
 </head>
 
 <body>
 
-	<!--
-		|> Header
-	 -->
-	<div class="header">
+	<!--Header-->
+	<header class="header">
 		<h1 class="header__title">Hello, my name is Josh</h1>
 		<hr class="header__rule">
 		<img class="header__image" src="img/infinity.png" alt="Infinity Loop">
-	</div>
+	</header>
 
-	<!--
-		|> Tagline
-	 -->
+	<!--Tagline-->
 	<h2 class="tagline">I am a web developer.</h2>
 
-	<!--
-		|> About
-	 -->
+	<!--About-->
 	<section>
 		<h3 class="section__heading">About Me</h3>
 
 		<p class="about__text">I admit it, I am a geek who loves coding websites. I started building websites with simple WYSIWYG builders over 6 years ago. Now I craft custom websites and advanced web apps. I've built dozens of websites over the years using HTML, WordPress, and Perch CMS. A little over a year ago I started working with PHP and the laravel framework. This allowed me build an amazing web app, called Novelize.</p>
 
 		<p class="about__text">I'm always on the look out for new development tools and techniques to use on future projects. As well as new projects, especially those that allow me to do something that I haven't done before.</p>
+		
+		<div class="about__links">
+			<a class="about__link" href="//www.facebook.com/josh.evensen9"><i class="fa fa-facebook-official"></i> Facebook</a>
+			<a class="about__link" href="//www.linkedin.com/in/josh-evensen-28959095?trk=hp-identity-name"><i class="fa fa-linkedin-square"></i> LinkedIn</a>
+			<a class="about__link" href="//github.com/joshevensen"><i class="fa fa-github"></i> Github</a>
+		</div>
 	</section>
 
-	<!--
-		|> Skills
-	 -->
+	<!--Skills-->
 	<section>
 		<h3 class="section__heading">Skills</h3>
 
@@ -68,9 +66,7 @@
 		<p class="skills-chart__key"><span class="first">beginner</span><span>&nbsp;</span><span>&nbsp;</span><span class="last">expert</span></p>
 	</section>
 
-	<!--
-		|> Technology
-	 -->
+	<!--Technology-->
 	<section>
 		<h3 class="section__heading">Technology &amp; Services</h3>
 
@@ -100,6 +96,7 @@
 			<li class="technology-list__item">Google Analytics</li>
 			<li class="technology-list__item">Google Tag Manager</li>
 			<li class="technology-list__item">Emmet</li>
+			<li class="technology-list__item">Gulp</li>
 			<li class="technology-list__item">Basecamp</li>
 			<li class="technology-list__item">JIRA</li>
 			<li class="technology-list__item">Wrike</li>
@@ -110,9 +107,7 @@
 		</ul>
 	</section>
 
-	<!--
-		|> Projects
-	 -->
+	<!--Projects-->
 	<section>
 		<h3 class="section__heading">Recent Projects</h3>
 
@@ -134,9 +129,7 @@
 		</div>
 	</section>
 
-	<!--
-		|> Hire
-	 -->
+	<!--Hire-->
 	<section>
 		<h3 class="section__heading">Need a Website?</h3>
 
@@ -171,14 +164,19 @@
 		</form>
 	</section>
 
-	<!--
-		|> Footer
-	 -->
-	<div class="footer">
+	<!--Footer-->
+	<footer class="footer">
 		<p class="footer__copyright">&copy; 2011 - <?php echo date("Y"); ?> Copyright. All Rights Reserved.</p>
-	</div>
-
-	<script src="js/min/scripts.min.js"></script>
+	</footer>
+	
+	<!--Overlay-->
 	<div class="modal-overlay" id="modalOverlay" style="display:none;"></div>
+
+
+	<script
+	    src="//code.jquery.com/jquery-2.2.4.min.js"
+	    integrity="sha256-BbhdlvQf/xTY9gja0Dq3HiwQF8LaCRTXxZKRutelT44="
+	    crossorigin="anonymous"></script>
+	<script src="js/scripts.js"></script>
 </body>
 </html>

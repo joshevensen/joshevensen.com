@@ -20,6 +20,29 @@ section {
 	line-height: 1.6;
 }
 
+.about__links {
+	margin-top: 30px;
+	text-align: center;
+}
+
+.about__link {
+	display: inline-block;
+	margin: 0 8px;
+	padding: 4px 16px;
+	border: 1px solid $greyLight;
+	font-size: 18px;
+
+	&:link,
+	&:visited {
+		color: $greyDark;
+	}
+	&:hover,
+	&:active {
+		color: $orange;
+		border-color: $orange;
+	}
+}
+
 /*
  * Skills Chart
  */
