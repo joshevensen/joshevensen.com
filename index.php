@@ -48,18 +48,18 @@
 
 
 		<ul class="skills-chart">
-			<li class="skills-chart__item" style="width: 85%">HTML</li>
-			<li class="skills-chart__item" style="width: 90%">CSS/SASS</li>
+			<li class="skills-chart__item" style="width: 100%">HTML</li>
+			<li class="skills-chart__item" style="width: 100%">CSS/SASS</li>
 			<li class="skills-chart__item" style="width: 30%">Bootstrap</li>
 			<li class="skills-chart__item" style="width: 40%">Foundation</li>
 			<li class="skills-chart__item" style="width: 60%">JavaScript</li>
 			<li class="skills-chart__item" style="width: 80%">jQuery</li>
-			<li class="skills-chart__item" style="width: 70%">AJAX</li>	
-			<li class="skills-chart__item" style="width: 60%">JSON</li>
+			<li class="skills-chart__item" style="width: 75%">AJAX</li>	
+			<li class="skills-chart__item" style="width: 70%">JSON</li>
 			<li class="skills-chart__item" style="width: 60%">SEO</li>
 			<li class="skills-chart__item" style="width: 90%">PHP/Laravel</li>
 			<li class="skills-chart__item" style="width: 20%">.NET</li>
-			<li class="skills-chart__item" style="width: 60%">WordPress</li>
+			<li class="skills-chart__item" style="width: 70%">WordPress</li>
 			<li class="skills-chart__item" style="width: 60%">Illustrator</li>
 			<li class="skills-chart__item" style="width: 50%">Photoshop</li>
 		</ul>
@@ -124,7 +124,7 @@
 
 		<div class="project-box">
 			<h4 class="project-box__title">The Unassisted Baby</h4>
-			<p class="project-box__description">This is part of my wife's passion, but I was lucky enough to get to build the website. This site is built on WordPress with custom post types.</p>
+			<p class="project-box__description">This is my wife's passion, but I was lucky enough to get to build the website. This site is built on WordPress with custom post types.</p>
 			<a class="project-box__link" href="http://www.theunassistedbaby.com/" target="_blank">CHECK IT OUT</a>
 		</div>
 	</section>
